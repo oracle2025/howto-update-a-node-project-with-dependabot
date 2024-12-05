@@ -4,8 +4,7 @@ pull_request_rules:
       - author=dependabot[bot]
       - check-success=build
       - label=dependencies
-      - or:
-        - label=npm
+      - label=npm
     actions:
       merge:
         method: merge
